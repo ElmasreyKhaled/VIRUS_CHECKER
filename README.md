@@ -62,33 +62,28 @@ pip install -r requirements.txt
 
 **script starts with**
 
-*****************************
-*                           *
-*     <<VIRUS_CHECKER>>     *
-*                           *
-*****************************
-Please Enter URL OR Domain OR IP OR File Hash
->>
 
 ## Usage :-
 
 **after starting the script you just need to write**
-**1- URL
-
-**ex: 'https://www.google.com'
-
-**2-Domain
-
-**ex: 'www.google.com'  or  ex: 'google.com'
 
 
-**3-File Hash
+**1- URL**
 
-**ex: '9498FF82A64FF445398C8426ED63EA5B'
+**ex: 'https://www.google.com'**
+
+**2-Domain**
+
+**ex: 'www.google.com'  or  ex: 'google.com'**
 
 
-**4-IP
-ex: '172.217.17.110'**
+**3-File Hash**
+
+**ex: '9498FF82A64FF445398C8426ED63EA5B'**
+
+
+**4-IP**
+**ex: '172.217.17.110'**
 
 ## End_Words :-
 
