@@ -37,9 +37,12 @@
 
 ## How does VIRUS_CHECKER work?
 
-**When You start the script it ask you for input URL OR Domain OR IP OR File Hash.**
+**When You start the script**
+* **it call the file Shape.py and print VIRUS_CHECKER with stars you will see it in the following lines**
+* **it ask you for input URL OR Domain OR IP OR File Hash.**
+* **Pass the input into Cheak.py to know if it is (URL OR Domain OR IP OR File Hash).**
 * **And submit the input to virustotal.com for analysis using their API.**
-* **And returns the result as either Malicious or Clean and the input type to make sure that it search about right thing.**
+* **And returns the result as the input type (to make sure that it search about right thing.) and either Malicious or Clean.**
 * **A single detection qualifies for being marked as malicious.**
 
 ## Installation :-
