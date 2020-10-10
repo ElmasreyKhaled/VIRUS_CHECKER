@@ -19,7 +19,7 @@
 ## How does Virus Scan work?
  
 * **it works in a very traditional way, it uses a database called a virus dictionary like(virustotal database) which has lots of codes from different known viruses.**
-* **When VIRUS_CHECKER check a file, it will take a snippet of that code and compare it with the codes in their virustotal database, if the files match then the virus attack on a computer is confirmed.**
+* **When virus scanner scan a file, it will take a snippet of that code and compare it with the codes in their virustotal database, if the files match then the virus attack on a computer is confirmed.**
 * **In simple words, the entire scan and detection process relies on the repository (virus dictionary/signature) of known viruses.**
 * **A robust virus scanner is more capable of tracking down Viruses, Worms, Trojans, Spyware and Malware software often circulated by Cyber criminals for their personal gains.**
 * **When an intruder is identified to exist in the system files, the virus scanner secures the computer by blocking all activities of the virus.**
