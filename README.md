@@ -2,14 +2,14 @@
 
 * **It is an open source script which written with python.**
 
-* **The script depend on and use virustotal.com.**
+* **The script depend on and use www.virustotal.com.**
 
 * **The script communicate with virustotal with it's public API.**
 
 
-## But wait What is virustotal.com ?
+## But wait What is virustotal ?
 
-* **VirusTotal is a website created by the Spanish security company Hispasec Sistemas.
+* **VirusTotal is a website created by the Spanish security company Hispasec Sistemas.**
 * **VirusTotal aggregates many antivirus products and online scan engines to check for viruses that the user's own antivirus may have missed, or to verify against any false positives.**
 * **Files up to 550 MB can be uploaded to the website, or sent via email (max. 32MB).**
 * **Anti-virus software vendors can receive copies of files that were flagged by other scans but passed by their own engine, to help improve their software and, by extension, VirusTotal's own capability.**
@@ -26,7 +26,7 @@
 
 ## What is API?
 
- * **An application-programming interface (API) is a set of programming instructions and standards for accessing a Web-based software application or Web tool.
+ * **An application-programming interface (API) is a set of programming instructions and standards for accessing a Web-based software application or Web tool.**
 * **A software company releases its API to the public so that other software developers can design products that are powered by its service.**
 
 ## VIRUSTOTAL Public API :-
@@ -39,7 +39,7 @@
 
 **When You start the script it ask you for input URL OR Domain OR IP OR File Hash.**
 * **And submit the input to virustotal.com for analysis using their API.**
-* **And returns the result as either Malicious or Clean and the input type to make sure that it search about right thing.
+* **And returns the result as either Malicious or Clean and the input type to make sure that it search about right thing.**
 * **A single detection qualifies for being marked as malicious.**
 
 ## Installation :-
@@ -63,6 +63,17 @@ pip install -r requirements.txt
 **script starts with**
 
 
+![View](https://user-images.githubusercontent.com/71513744/95667002-3c37fc00-0b60-11eb-8dd5-8d7b3da102cb.jpg)
+
+
+**The output You get talks about two things**
+* **The Type of the input**
+* **The result if it (Clean or malicious)**
+
+
+![View1](https://user-images.githubusercontent.com/71513744/95667064-e9127900-0b60-11eb-8657-ce4c3e78f78e.jpg)
+
+
 ## Usage :-
 
 **after starting the script you just need to write**
@@ -72,9 +83,22 @@ pip install -r requirements.txt
 
 **ex: 'https://www.google.com'**
 
+
+![usage1](https://user-images.githubusercontent.com/71513744/95667072-ffb8d000-0b60-11eb-8bea-7c37060bf508.jpg)
+
+
 **2-Domain**
 
-**ex: 'www.google.com'  or  ex: 'google.com'**
+* **ex: 'www.google.com'**
+
+![usage2](https://user-images.githubusercontent.com/71513744/95667097-7d7cdb80-0b61-11eb-9912-3461d7845d88.jpg)
+
+
+* **OR ex: 'google.com'**
+
+
+![usage21](https://user-images.githubusercontent.com/71513744/95667102-95545f80-0b61-11eb-9a32-547d81971a93.jpg)
+
 
 
 **3-File Hash**
@@ -82,8 +106,17 @@ pip install -r requirements.txt
 **ex: '9498FF82A64FF445398C8426ED63EA5B'**
 
 
+![usage3](https://user-images.githubusercontent.com/71513744/95667108-ae5d1080-0b61-11eb-8a0e-983ff1eaf7c0.jpg)
+
+
+
 **4-IP**
+
 **ex: '172.217.17.110'**
+
+
+![usage4](https://user-images.githubusercontent.com/71513744/95667110-c03eb380-0b61-11eb-82ff-e2ecacff6c01.jpg)
+
 
 ## End_Words :-
 
