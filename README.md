@@ -66,7 +66,9 @@ pip install -r requirements.txt
 
 **You can start using VIRUS_CHECKER by running**
 
-.\VIRUS_CHECKER.py
+python .\VIRUS_CHECKER.py
+
+**You can see the screenshotes to know the way to Installation and Using the script**
 
 **script starts with**
 
