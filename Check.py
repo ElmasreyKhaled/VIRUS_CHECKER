@@ -9,7 +9,7 @@ class check:
         else:
             k = validators.ipv4(inp)
             h = validators.ipv6(inp)
-            if k is True:
+            if k is True or h is True:
                 return "IP"
             else:
                 k = validators.url(inp)
