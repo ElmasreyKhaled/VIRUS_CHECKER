@@ -2,37 +2,57 @@ import requests
 import json
 from Check import check
 from Shape import shape
-shape("     <<VIRUS_CHECKER>>     ")
-User_in = input("Please Enter URL OR Domain OR IP OR File Hash\n>> ")
-k = check.cheacking(User_in)
 api_key = '30a0394aec16f5f15e877bd414011236dc7c43c07adedf591a91aa1d88a88a0f'
-if k == "Domain":
-    User_inp = "https://" + User_in
-elif k == "IP":
-    User_inp = "http://" + User_in
-else:
-    User_inp = User_in
-if k == "Domain" or k == "IP" or k == "URL":
-    prams = {'apikey': api_key, 'resource': User_inp}
-    URL = 'https://www.virustotal.com/vtapi/v2/url/report'
-    res = requests.get(URL, params=prams)
-    res_json = json.loads(res.content)
-    if res_json['positives'] > 0:
-        print(f"The Type is {k} \nAnd '{User_in}' is Milicious")
-    elif res_json['positives'] <= 0:
-        print(f"The Type is {k} \nAnd '{User_in}' is Clean")
+get_out = True
+counter = 0
+shape("     <<VIRUS_CHECKER>>     ")
+while get_out is True:
+    User_in = input("Please Enter URL OR Domain OR IP OR File Hash\n>> ")
+    k = check.cheacking(User_in)
+    if k == "Domain":
+        User_inp = "https://" + User_in
+    elif k == "IP":
+        User_inp = "http://" + User_in
     else:
-        print("NOT FOUND")
-elif k == "File_Hash":
-    url = 'https://www.virustotal.com/vtapi/v2/file/report'
-    params = {'apikey': api_key, 'resource': User_inp}
-    response = requests.get(url, params=params)
-    res_json = json.loads(response.content)
-    if res_json['positives'] > 0:
-        print(f"The Type is {k} \nAnd '{User_in}' is Milicious")
-    elif res_json['positives'] <= 0:
-        print(f"The Type is {k} \nAnd '{User_in}' is Clean")
-    else:
-        print("NOT FOUND")
-else:
-    print("You don't Input correct Value Please Try again")
+        User_inp = User_in
+    if k == "Domain" or k == "IP" or k == "URL":
+        prams = {'apikey': api_key, 'resource': User_inp}
+        URL = 'https://www.virustotal.com/vtapi/v2/url/report'
+        res = requests.get(URL, params=prams)
+        res_json = json.loads(res.content)
+        try:
+            if res_json['positives'] > 0:
+                print(f"The Type is {k} \nAnd '{User_in}' is Milicious")
+                get_out = False
+            elif res_json['positives'] <= 0:
+                print(f"The Type is {k} \nAnd '{User_in}' is Clean")
+                get_out = False
+        except:
+            print("You don't Input correct Value Please Try again")
+    elif k == "File_Hash":
+        url = 'https://www.virustotal.com/vtapi/v2/file/report'
+        params = {'apikey': api_key, 'resource': User_inp}
+        response = requests.get(url, params=params)
+        res_json = json.loads(response.content)
+        try:
+            if res_json['positives'] > 0:
+                print(f"The Type is {k} \nAnd '{User_in}' is Milicious")
+                get_out = False
+            elif res_json['positives'] <= 0:
+                print(f"The Type is {k} \nAnd '{User_in}' is Clean")
+                get_out = False
+        except:
+            print("You don't Input correct Value Please Try again")
+    counter += 1
+    if counter == 3 or counter == 5 and get_out is True:
+        h = input("To quit Please Enter (q) to continue (c)\n>>>>")
+        k = h.lower()
+        if k == "q":
+            get_out = False
+        else:
+            get_out = True
+    elif counter > 5 and get_out is True:
+        print("Out of Rtying, Please Make sure about the input and try again later")
+        get_out = False
+
+print("Thank You For Using <<VIRUS_CHECKER>>")
