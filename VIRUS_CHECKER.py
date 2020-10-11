@@ -22,10 +22,12 @@ while get_out is True:
         res_json = json.loads(res.content)
         try:
             if res_json['positives'] > 0:
-                print(f"The Type is {k} \nAnd '{User_in}' is Milicious")
+                print(
+                    f"\nThe Type is >>>>>>> {k} \n'{User_in}' is >>>>>>>  Milicious\n")
                 get_out = False
             elif res_json['positives'] <= 0:
-                print(f"The Type is {k} \nAnd '{User_in}' is Clean")
+                print(
+                    f"\nThe Type is >>>>>>> {k} \n \n'{User_in}' is >>>>>>>  Clean\n")
                 get_out = False
         except:
             print("You don't Input correct Value Please Try again")
@@ -36,13 +38,15 @@ while get_out is True:
         res_json = json.loads(response.content)
         try:
             if res_json['positives'] > 0:
-                print(f"The Type is {k} \nAnd '{User_in}' is Milicious")
+                print(
+                    f"\nThe Type is >>>>>>> {k} \n \n'{User_in}' is >>>>>>>  Milicious\n")
                 get_out = False
             elif res_json['positives'] <= 0:
-                print(f"The Type is {k} \nAnd '{User_in}' is Clean")
+                print(
+                    f"\nThe Type is >>>>>>> {k} \n'{User_in}' is >>>>>>>  Clean\n")
                 get_out = False
         except:
-            print("You don't Input correct Value Please Try again")
+            print("\n>You don't Input correct Value Please Try again<\n")
     counter += 1
     if counter == 3 or counter == 5 and get_out is True:
         h = input("To quit Please Enter (q) to continue (c)\n>>>>")
@@ -52,7 +56,7 @@ while get_out is True:
         else:
             get_out = True
     elif counter > 5 and get_out is True:
-        print("Out of Rtying, Please Make sure about the input and try again later")
+        print("\nOut of Rtying, Please Make sure about the input and try again later\n")
         get_out = False
 
-print("Thank You For Using <<VIRUS_CHECKER>>")
+print("Thank You For Using <<VIRUS_CHECKER>>\n")
