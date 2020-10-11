@@ -68,8 +68,6 @@ pip install -r requirements.txt
 
 python .\VIRUS_CHECKER.py
 
-**You can see the screenshotes to know the way to Installation and Using the script**
-
 **script starts with**
 
 
@@ -82,6 +80,11 @@ python .\VIRUS_CHECKER.py
 
 
 ![wrong value](https://user-images.githubusercontent.com/71513744/95681930-c9239980-0be2-11eb-9f77-b11292829bb8.jpg)
+
+**This is screenshote to know the way to Installation and Using the script**
+
+
+![1](https://user-images.githubusercontent.com/71513744/95691461-b2e7fe80-0c1f-11eb-9f5f-c6f750b00ba7.png)
 
 
 ## Usage :-
