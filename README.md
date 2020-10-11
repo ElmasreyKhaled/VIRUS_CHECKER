@@ -44,6 +44,11 @@
 * **And submit the input to virustotal.com for analysis using their API.**
 * **And returns the result as the input type (to make sure that it search about right thing.) and either Malicious or Clean.**
 * **A single detection qualifies for being marked as malicious.**
+* **When you give it wrong input it will ask you to try again**
+   * **After 3 and 5 times from giving invaild input a message will apear asking** 
+      * quit
+      * continue
+   * **After more than 5 times You will out of trying and try again later(the script will quit)**
 
 ## Installation :-
 
