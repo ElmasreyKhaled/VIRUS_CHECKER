@@ -106,7 +106,7 @@ pip install -r requirements.txt
 
 **3-File Hash**
 
-**ex: '9498FF82A64FF445398C8426ED63EA5B'**
+**ex: '36F9CA40B3CE96FCEE1CF1D4A7222935536FD25B'**
 
 
 ![usage3](https://user-images.githubusercontent.com/71513744/95667108-ae5d1080-0b61-11eb-8a0e-983ff1eaf7c0.jpg)
