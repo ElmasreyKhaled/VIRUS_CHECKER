@@ -123,4 +123,4 @@ pip install -r requirements.txt
 
 ## End_Words :-
 
-*I hope oneday i will back to improve this script as a result for the progress I achieved and things I learned. *
+*I hope oneday i will back to improve this script as a result for the progress I achieved and things I learned.*
