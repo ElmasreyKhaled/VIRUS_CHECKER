@@ -79,7 +79,7 @@ pip install -r requirements.txt
 * **The result if it (Clean or malicious)**
 
 
-![View1](https://user-images.githubusercontent.com/71513744/95667064-e9127900-0b60-11eb-8657-ce4c3e78f78e.jpg)
+![wrong value](https://user-images.githubusercontent.com/71513744/95681930-c9239980-0be2-11eb-9f77-b11292829bb8.jpg)
 
 
 ## Usage :-
@@ -92,20 +92,20 @@ pip install -r requirements.txt
 **ex: 'https://www.google.com'**
 
 
-![usage1](https://user-images.githubusercontent.com/71513744/95667072-ffb8d000-0b60-11eb-8bea-7c37060bf508.jpg)
+![wrong value](https://user-images.githubusercontent.com/71513744/95681953-fcfebf00-0be2-11eb-9dd1-03b2a76a65b4.jpg)
 
 
 **2-Domain**
 
 * **ex: 'www.google.com'**
 
-![usage2](https://user-images.githubusercontent.com/71513744/95667097-7d7cdb80-0b61-11eb-9912-3461d7845d88.jpg)
+![wrong value](https://user-images.githubusercontent.com/71513744/95681981-29b2d680-0be3-11eb-86b7-053751de35e0.jpg)
 
 
 * **OR ex: 'google.com'**
 
 
-![usage21](https://user-images.githubusercontent.com/71513744/95667102-95545f80-0b61-11eb-9a32-547d81971a93.jpg)
+![wrong value](https://user-images.githubusercontent.com/71513744/95682037-6d0d4500-0be3-11eb-852f-8b94c23f806e.jpg)
 
 
 
@@ -114,7 +114,7 @@ pip install -r requirements.txt
 **ex: '36F9CA40B3CE96FCEE1CF1D4A7222935536FD25B'**
 
 
-![usage3](https://user-images.githubusercontent.com/71513744/95667108-ae5d1080-0b61-11eb-8a0e-983ff1eaf7c0.jpg)
+![wrong value](https://user-images.githubusercontent.com/71513744/95682059-8dd59a80-0be3-11eb-9ebc-c211a65ce1c2.jpg)
 
 
 
@@ -123,7 +123,7 @@ pip install -r requirements.txt
 **ex: '172.217.17.110'**
 
 
-![usage4](https://user-images.githubusercontent.com/71513744/95667110-c03eb380-0b61-11eb-82ff-e2ecacff6c01.jpg)
+![wrong value](https://user-images.githubusercontent.com/71513744/95682097-c37a8380-0be3-11eb-939c-2f34321b2817.jpg)
 
 
 ## End_Words :-
