@@ -48,14 +48,14 @@ while get_out is True:
         except:
             print("\n>You don't Input correct Value Please Try again<\n")
     counter += 1
-    if counter == 3 or counter == 5 and get_out is True:
+    if counter == 2 or counter == 4 and get_out is True:
         h = input("To quit Please Enter (q) to continue (any another key)\n>>>>")
         k = h.lower()
         if k == "q":
             get_out = False
         else:
             get_out = True
-    elif counter > 5 and get_out is True:
+    elif counter > 4 and get_out is True:
         print("\nOut of Rtying, Please Make sure about the input and try again later\n")
         get_out = False
 
