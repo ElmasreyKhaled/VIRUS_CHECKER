@@ -132,5 +132,6 @@ python .\VIRUS_CHECKER.py
 
 
 ## End_Words :-
+**Remember to open and make sure about the import of (shap.py and check.py) OR You can copy their content into VIRUS_CHECKER.py to avoid a problem in running**
 
 *I hope oneday i will back to improve this script as a result for the progress I achieved and things I learned.*
