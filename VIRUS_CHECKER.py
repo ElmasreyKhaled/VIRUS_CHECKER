@@ -5,6 +5,7 @@ from Shape import shape
 api_key = '30a0394aec16f5f15e877bd414011236dc7c43c07adedf591a91aa1d88a88a0f'
 get_out = True
 counter = 0
+chooses = ["Domain", "IP", "URL"]
 shape("     <<VIRUS_CHECKER>>     ")
 while get_out is True:
     User_in = input("Please Enter URL OR Domain OR IP OR File Hash\n>> ")
@@ -15,7 +16,7 @@ while get_out is True:
         User_inp = "http://" + User_in
     else:
         User_inp = User_in
-    if k == "Domain" or k == "IP" or k == "URL":
+    if k in chooses:
         prams = {'apikey': api_key, 'resource': User_inp}
         URL = 'https://www.virustotal.com/vtapi/v2/url/report'
         res = requests.get(URL, params=prams)
